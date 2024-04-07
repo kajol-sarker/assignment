@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KSA</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: left;
+        }
+        nav {
+            display: flex;
+            justify-content: right;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+        .banner {
+            background-color: white;
+            height: 400px;
+            display: flex;
+            justify-content: last baseline;
+            align-items: center;
+            text-align: center;
+            color: #fff;
+        }
+        .banner img {
+            max-width: 100%;
+            max-height: 100%;
+        }
+        .content {
+            display: flex;
+            justify-content: space-around;
+            padding: 40px 0;
+            flex-direction: row-reverse; 
+        }
+        .column {
+            flex: 1;
+            padding: 0 20px;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        footer a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 20px;
+        }
+        @media (max-width: 768px) {
+            .content {
+                flex-direction: column;
+            }
+            .column {
+                padding: 20px 0;
+            }
+        }
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Assignment</h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Projects</a>
+            <a href="Contact Section">Contact</a>
+        </nav>
+    </header>
+
+    <div class="banner">
+        <img src="D:\Pictures\My Collection\KT.jpg " alt="Banner Image">
+    </div>
+
+    <div class="content">
+        <div class="column">
+            <h2>Skills</h2>
+            <li>C </li>
+            <li>Java</li>
+            <li>HTML</li>
+            <li>Database</li>
+        </div>
+        <div class="column">
+            <h2>About Me</h2>
+            </p>Assalamuyalaikum ,Myself Md.Kajol Sarker as a 3rd year of 
+            Computer Science & Engineering (CSE) student at Green University of Bangladesh.</p>
+        </div>
+    </div>
+
+    <footer>
+        <a href="https://www.facebook.com/profile.php?id=100011954717875">Facebook</a>
+        <a href="https://www.twitter.com">Twitter</a>
+        <a href="https://www.instagram.com">Instagram</a>
+        <a href="https://www.linkedin.com/in/kajol625">LinkedIn</a>
+    </footer>
+</body>
+</html>
+<section id="contact-section">
+    <h2>Contact Information</h2>
+    <p>Email: 221902165@student.green.edu.bd</p>
+    <p>Phone: 01778376010 </p>
+</section>
